@@ -1,0 +1,37 @@
+body {
+	margin: 1em auto;
+	padding: 1em 1em 1em 1em;
+	background-color: antiquewhite;
+	height:auto;
+	text-align: center;
+}
+
+input[type=submit] {
+    width: 50%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=text] {
+	align: left;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+table {
+	border: 1px solid black !important;
+    border-collapse: collapse !important;
+    margin: auto !important;
+    width: 70% !important;
+}
+
+th, td {
+	border: 1px solid black !important;
+}
